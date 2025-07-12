@@ -37,7 +37,7 @@ import pandas as pd
 
 all_tile_coords = []
 
-svs_folder = "SLN-Breast"  # ✔️ This is where your .svs files actually are
+svs_folder = "SLN-Breast"  
 output_dir = "tiles"
 os.makedirs(output_dir, exist_ok=True)
 
